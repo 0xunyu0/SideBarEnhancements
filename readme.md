@@ -156,6 +156,14 @@ Definitions file: `User/SideBarEnhancements/Open With/Side Bar.sublime-menu` (no
         "open_automatically" : true // will close the view/tab and launch the application
     },
 
+### Vars on "args" param
+
+- $PATH - The full path to the current file, e. g., C:\Files\Chapter1.txt.
+- $PROJECT - The root directory of the current project.
+- $DIRNAME - The directory of the current file, e. g., C:\Files.
+- $NAME - The name portion of the current file, e. g., Chapter1.txt.
+- $EXTENSION - The extension portion of the current file, e. g., txt.
+
 ## FAQ
 
 Q: Why the menu is not shown on `Open Files`?
@@ -187,6 +195,7 @@ Q: Can the package stop "show preview in a **right** click to a file".
 # Contributors:
 
 (Thank you so much!)
+-   Aleksandar Urosevic
 -   bofm
 -   Dalibor Simacek
 -   Devin Rhode
@@ -195,8 +204,10 @@ Q: Can the package stop "show preview in a **right** click to a file".
 -   Jeremy Gailor
 -   Joao Antunes
 -   Leif Ringstad
+-   MauriceZ
 -   Nick Zaccardi
 -   Patrik Göthe
+-   Peder Langdal
 -   Randy Lai
 -   Raphael DDL Oliveira
 -   robwala
@@ -206,8 +217,6 @@ Q: Can the package stop "show preview in a **right** click to a file".
 -   Todd Wolfson
 -   Tyler Thrailkill
 -   Yaroslav Admin
--   Aleksandar Urosevic
--   MauriceZ
 
 ## TODO
 
@@ -391,7 +400,7 @@ You should have received a copy of the GNU General Public License along with thi
 [Donate to support this project.][]
 
   [Sublime Text 3+]: http://www.sublimetext.com/
-  []: http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png
+  []: https://www.dropbox.com/s/ckz5n2ncn2pxkii/sidebar.png?dl=1
   [desktop]: http://pypi.python.org/pypi/desktop
   [Send2Trash]: http://pypi.python.org/pypi/Send2Trash
   [bfg-pages]: http://code.google.com/p/bfg-pages/
